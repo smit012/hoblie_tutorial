@@ -1,0 +1,132 @@
+/* OVERLAY */
+.help-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: none;
+  z-index: 9999;
+}
+
+/* DRAWER */
+.help-drawer {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 400px;
+  max-width: 92%;
+  height: 100%;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  animation: slideIn 0.3s ease-out;
+}
+
+/* HEADER */
+.help-header {
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.help-header h2 {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
+
+.help-back,
+.help-close {
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* CONTENT */
+.help-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* ITEM */
+.help-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  background: #3dbeb7;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* TEXT */
+.help-item span:first-child {
+  flex: 1;
+}
+
+/* TRIANGLE */
+.help-arrow {
+  font-size: 14px;
+  opacity: 0.6;
+  margin-left: 12px;
+}
+
+/* OPEN STATE */
+.help-item.open {
+  background: #86d1d4;
+}
+
+/* INLINE CLOSE */
+.help-close-inline {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* ANSWER BELOW */
+.help-inline-answer {
+  margin-top: 10px;
+  padding: 14px;
+  background: #ffffff;
+  border-radius: 12px;
+  font-size: 13px;
+  line-height: 1.6;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.help-inline-answer iframe {
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.help-inline-answer {
+  position: relative;
+  margin: 12px 0 16px;
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 14px;
+  font-size: 13px;
+  line-height: 1.6;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.30);
+}
+

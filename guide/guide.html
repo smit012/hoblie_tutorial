@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Guide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="guide.css" />
+  <link rel="stylesheet" href="help/help.css">
+
+</head>
+<body>
+
+
+<!-- HELP DRAWER -->
+<div id="helpOverlay" class="help-overlay">
+  <div class="help-drawer">
+
+    <div class="help-header">
+      <span class="help-back">←</span>
+      <h2>Help</h2>
+      <span class="help-close">✕</span>
+    </div>
+
+    <div class="help-content"></div>
+
+  </div>
+</div>
+
+
+
+
+<!-- Back Button -->
+<a href="../index.html" class="back-btn">←</a>
+
+<div class="guide-wrapper">
+
+  <!-- VIDEO / POLL CARD -->
+  <div class="video-card" id="videoCard">
+
+    <!-- Progress -->
+    <div class="video-progress" id="progressText"></div>
+
+    <!-- VIDEO -->
+    <iframe
+      id="videoFrame"
+      src=""
+      frameborder="0"
+      allow="autoplay; fullscreen"
+      allowfullscreen>
+    </iframe>
+
+    <!-- IMAGE SLIDE -->
+    <div class="image-slide" id="imageSlide">
+      <img id="imageSlideImg" src="" alt="">
+    </div>
+
+    
+
+    <!-- POLL -->
+    <div class="poll-overlay" id="pollBox">
+      <h3 id="pollQuestion"></h3>
+      <div class="poll-options" id="pollOptions"></div>
+    </div>
+
+    <!-- REVIEW -->
+    <div class="review-box" id="reviewBox">
+ <img
+        src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/vc_Now_Hoblie_7.png?v=1765952333"
+        class="review-image1"
+        alt=""
+      />
+    
+
+      <h3 id="reviewQuestion"></h3>
+
+      <div class="stars" id="starGroup">
+        <span data-star="1">★</span>
+        <span data-star="2">★</span>
+        <span data-star="3">★</span>
+        <span data-star="4">★</span>
+        <span data-star="5">★</span>
+      </div>
+
+      <textarea
+        id="reviewText"
+        placeholder="Tell us what you loved (or what we can improve)…">
+      </textarea>
+
+      <button id="reviewSubmit">Continue</button>
+
+        <img
+        src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/Untitled_design.png?v=1766398018"
+        class="review-image"
+        alt=""
+      />
+
+    </div>
+<!-- SUCCESS SCREEN -->
+<div class="success-screen" id="successScreen">
+
+  <!-- Home (top-left) -->
+   
+ <a class="success-home" href="../index.html">
+  <svg class="home-icon" viewBox="0 0 24 24" fill="none">
+    <path d="M3 9.5L12 3L21 9.5V20C21 20.8284 20.3284 21.5 19.5 21.5H4.5C3.67157 21.5 3 20.8284 3 20V9.5Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M9 21.5V12.5H15V21.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</a>
+
+
+  <!-- Middle content -->
+  <div class="success-content">
+    <!-- <img src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/vc_Now_Hoblie_7.png?v=1765952333" class="success-logo" alt=""> -->
+    <h2> You did it!</h2>
+    <p id="successMessageText">Show off your art to friends and family!</p>
+
+    <a id="shareBtn" class="success-btn" target="_blank">Share on WhatsApp</a>
+  </div>
+
+  <!-- Instagram bottom -->
+  <div class="success-footer">
+    <p>Follow us on Instagram</p>
+    <a href="https://www.instagram.com/hoblie_diystore/" target="_blank" class="insta-btn">Follow @hoblie.in</a>
+  </div>
+
+</div>
+
+  </div>
+
+  <!-- NAV -->
+  <div class="nav-controls">
+    <span class="nav-arrow" id="prevBtn">←</span>
+    <span class="nav-dot" onclick="openHelp()">?</span>
+    <span class="nav-arrow" id="nextBtn">→</span>
+  </div>
+
+</div>
+
+<script src="guide.js"></script>
+<script src="help/help.config.js"></script>
+<script src="help/help.js"></script>
+
+
+</body>
+</html>

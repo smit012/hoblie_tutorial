@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Learning Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+  
+  <!-- HEADER / HERO -->
+  <section class="hero">
+    
+    <!-- <div class="hero-text">
+      <h1>Step-by-step guides</h1>
+      <p>
+        Pick your kit. Then type in the password that's on the back of the card in your kit.
+      </p>
+    </div> -->
+    <div class="hero-image">
+  <picture>
+    <!-- Mobile image -->
+    <source 
+      media="(max-width: 1024px)" 
+      srcset="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/S_2.png?v=1766406954"
+    >
+
+    <!-- Desktop image -->
+    <img 
+      src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/S_1.png?v=1765955053" 
+      alt="Hero Image"
+    >
+  </picture>
+</div>
+
+  </section>
+
+  <!-- SEARCH -->
+  <div class="search-wrapper">
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Find your hoblie kit..."
+      onkeyup="filterCards()"
+    />
+  </div>
+
+  <!-- PRODUCTS GRID -->
+  <section class="grid" id="productGrid">
+
+    <div class="card" data-title="Pichwai Painting kit" onclick="window.location.href='password.html?kit=pichwai'">
+      <img src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/Pichwai_Listing_images_2.png?v=1760507997" alt="">
+      <h3>Pichwai Painting kit </h3>
+      <p class="level">Difficulty:2/5 🐣</p>
+    </div>
+
+    <div class="card" data-title="Madhubani Painting kit" onclick="window.location.href='password.html?kit=madhubani'">
+      <img src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/Madhubani_Listing_images_3.png?v=1760507914" alt="">
+      <h3>Madhubani Painting kit</h3>
+      <p class="level">Difficulty:2/5 🐣</p>
+    </div>
+
+    <div class="card badge" data-title="Boho Painting kit" onclick="window.location.href='password.html?kit=boho'">
+      <span class="tag">LIMITED EDITION</span>
+      <img src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/The_best_DIY_Kit_for_Adults.png?v=1765779385" alt="">
+      <h3>Boho Painting kit</h3>
+      <p class="level">Difficulty:2/5 🐣</p>
+    </div> 
+
+
+    <div class="card" data-title="Pour painting kit" onclick="window.location.href='password.html?kit=pourseafoam'">
+      <span class="tag">LIMITED EDITION</span>
+      <img src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/Fluid_Art_Coasters.png?v=1759133425" alt="">
+      <h3>Seafoam Swirls</h3>
+      <p class="level">Difficulty:2.5/5 🐥</p>
+    </div>
+
+    <div class="card" data-title="Pour painting kit" onclick="window.location.href='password.html?kit=pourmetallic'">
+      <span class="tag">LIMITED EDITION</span>
+      <img src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/Pour_painting_coasters_kit.png?v=1759311728" alt="">
+      <h3>Metallic Swirls</h3>
+      <p class="level">Difficulty:2.5/5 🐥</p>
+    </div>
+   
+    <div class="card" data-title="Pour painting kit" onclick="window.location.href='password.html?kit=poursunset'">
+      <span class="tag">LIMITED EDITION</span>
+      <img src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/fluid_art_coaster.png?v=1759396228" alt="">
+      <h3>Sunset Swirls</h3>
+      <p class="level">Difficulty:2.5/5 🐥</p>
+    </div>
+
+ 
+
+     <div class="card" data-title="Coffee Sensory Painting Kit" onclick="window.location.href='password.html?kit=coffee'">
+      <img src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/coffee.png?v=1749292104" alt="">
+      <h3>Coffee Sensory Painting Kit</h3>
+      <p class="level">Difficulty:2.5/5 🐥</p>
+    </div>
+
+     <div class="card" data-title="Musical Chords Sensory Painting Kit" onclick="window.location.href='password.html?kit=musical'">
+      <img src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/HOBLIEproductimage-08.webp?v=1746772872" alt="">
+      <h3>Musical Chords Sensory Painting Kit</h3>
+      <p class="level">Difficulty:2.5/5 🐥</p>
+    </div>
+
+     <div class="card" data-title="Beach Waves Sensory Painting Kit" onclick="window.location.href='password.html?kit=beach'">
+      <img src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/waves.png?v=1749292938" alt="">
+      <h3>Beach Waves Sensory Painting Kit</h3>
+      <p class="level">Difficulty:2.5/5 🐥</p>
+    </div>
+
+
+     <div class="card" data-title="Yin Yang Mesh Art" onclick="window.location.href='password.html?kit=yinyang'">
+      <img src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/yingyang_42ccfddf-1333-4786-8ab1-9e2e8c5f5e39.png?v=1749295110" alt="">
+      <h3>Yin Yang Mesh Art </h3>
+      <p class="level">Difficulty:2.5/5 🐥</p>
+    </div>
+
+    <div class="card" data-title="Evil Eye Mesh Art" onclick="window.location.href='password.html?kit=evileye'">
+      <img src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/evileye.png?v=1749295052" alt="">
+      <h3>Evil Eye Mesh Art </h3>
+      <p class="level">Difficulty:2.5/5 🐥</p>
+    </div>
+
+    <div class="card" data-title="Heartful Layers Mesh Art" onclick="window.location.href='password.html?kit=heartfullayers'">
+      <img src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/heart.png?v=1749294923" alt="">
+      <h3>Heartful Layers Mesh Art </h3>
+      <p class="level">Difficulty:2.5/5 🐥</p>
+    </div>
+
+    <div class="card" data-title="Cat-Inspired Mesh Art" onclick="window.location.href='password.html?kit=catinspired'">
+      <img src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/cat.jpg?v=1749294002" alt="">
+      <h3>Cat-Inspired Mesh Art </h3>
+      <p class="level">Difficulty:2.5/5 🐥</p>
+    </div>
+
+    <div class="card" data-title="Abstract Pattern Mesh Art" onclick="window.location.href='password.html?kit=abstractpattern'">
+      <img src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/pattern.jpg?v=1749293727" alt="">
+      <h3>Abstract Pattern Mesh Art </h3>
+      <p class="level">Difficulty:2.5/5 🐥</p>
+    </div>
+
+     <div class="card" data-title="Summer Theme Mesh Art" onclick="window.location.href='password.html?kit=summertheme'">
+      <img src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/summer.jpg?v=1749293453" alt="">
+      <h3>Summer Theme Mesh Art </h3>
+      <p class="level">Difficulty:2.5/5 🐥</p>
+    </div>
+
+      <div class="card" data-title="Ovals of Awe | DIY Aesthetic Clay Mirror" onclick="window.location.href='password.html?kit=ovalsofawe'">
+      <img src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/HoblieWebsiteListingimages-06.jpg?v=1747812662" alt="">
+      <h3>Ovals of Awe | DIY Aesthetic Clay Mirror</h3>
+      <p class="level">Difficulty:2/5 🐣</p>
+    </div>
+
+       <div class="card" data-title="Cute Little Corners | DIY Aesthetic Clay Mirror" onclick="window.location.href='password.html?kit=cutelittlecorners'">
+      <img src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/HOBLIEproductimage-06.webp?v=1746771971" alt="">
+      <h3>Cute Little Corners | DIY Aesthetic Clay Mirror</h3>
+      <p class="level">Difficulty:2/5 🐣</p>
+    </div>
+
+     <div class="card" data-title="Mini Mood Mirrors | DIY Aesthetic Clay Mirror" onclick="window.location.href='password.html?kit=minimoodmirrors'">
+      <img src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/HoblieWebsiteListingimages-01.jpg?v=1747812536" alt="">
+      <h3>Mini Mood Mirrors  | DIY Aesthetic Clay Mirror</h3>
+      <p class="level">Difficulty:2/5 🐣</p>
+    </div>
+
+      <div class="card" data-title="Perfectly Framed You | DIY Aesthetic Clay Mirror" onclick="window.location.href='password.html?kit=perfectlyframedyou'">
+      <img src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/Hoblie_Website_Big_Mirror_Listing_images-11.jpg?v=1747812164" alt="">
+      <h3>Perfectly Framed You | DIY Aesthetic Clay Mirror</h3>
+      <p class="level">Difficulty:2/5 🐣</p>
+    </div>
+
+
+       <div class="card" data-title="Reflections in Line | DIY Aesthetic Clay Mirror" onclick="window.location.href='password.html?kit=reflectionsinline'">
+      <img src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/HoblieWebsiteBigMirrorListingimages-06.jpg?v=1747811942" alt="">
+      <h3>Reflections in Line | DIY Aesthetic Clay Mirror</h3>
+      <p class="level">Difficulty:2/5 🐣</p>
+    </div>
+
+      <div class="card" data-title="Round It Up | DIY Aesthetic Clay Mirror" onclick="window.location.href='password.html?kit=rounditup'">
+      <img src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/HoblieWebsiteBigMirrorListingimages-01.jpg?v=1747811634" alt="">
+      <h3>Round It Up | DIY Aesthetic Clay Mirror</h3>
+      <p class="level">Difficulty:2/5 🐣</p>
+    </div>
+
+     <div class="card badge" data-title="Seaform Coasters Kit" onclick="window.location.href='password.html?kit=seaform'">
+      <span class="tag">LIMITED EDITION</span>
+      <img src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/Fluid_Art_Coasters.png?v=1759133425" alt="">
+      <h3>Seaform Coasters Kit</h3>
+      <p class="level">Difficulty:2.5/5 🐥</p>
+    </div>
+
+    <div class="card" data-title="girl-power" onclick="window.location.href='password.html?kit=power'">
+      <span class="tag">LIMITED EDITION</span>
+      <img src="https://cdn.shopify.com/s/files/1/0739/8781/7689/files/vc_Now_Hoblie_3.png?v=1765436522" alt="">
+      <h3>girl-power</h3>
+      <p class="level">Difficulty:2.5/5 🐥</p>
+    </div>
+
+    <!-- For new product cards, update details accordingly.
+
+    <div class="card" data-title="Product Name" onclick="window.location.href='password.html?kit=product-name(slug) (in password.js name should match )'">
+      <span class="tag">tag-nameN</span>
+      <img src="shopify image link from content/file" alt="">
+      <h3>Product Title</h3>
+      <p class="level">Difficulty:2.5/5 🐥</p>
+    </div>
+     -->
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
