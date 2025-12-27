@@ -339,11 +339,12 @@ html, body {
  .back-btn {
   position: fixed;
   top: -4px;
-  left: 200px;
+   text-align: right;
   font-size: 30px;
   color: #fff;
   text-decoration: none;
   z-index: 20;
 }
 }
+
 
