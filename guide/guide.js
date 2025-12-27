@@ -7,6 +7,7 @@ const kitConfig = {
  
 
 pourseafoam: {
+    title: "Seafoam Swirls",
     theme: {
       cardBg: "#86d1d4",
       buttonBg: "#ffffffff",
@@ -94,6 +95,7 @@ pourseafoam: {
 
   
 poursunset: {
+   title: "Sunset Swirls",
     theme: {
       cardBg: "#8ac86a",
       buttonBg: "#ffffffff",
@@ -180,6 +182,7 @@ poursunset: {
   },
 
 pourmetallic: {
+   title: "Sunset Swirls",
     theme: {
       cardBg: "#ffffffff",
       buttonBg: "#f8df61",
@@ -524,17 +527,23 @@ document.getElementById("reviewSubmit").onclick = () => {
     body: formData
   }).catch(() => {});
 
-  // alert("Thank you for your feedback ❤️");
-  document.getElementById("successScreen").style.display = "flex";
+// alert("Thank you for your feedback ❤️");
+document.getElementById("successScreen").style.display = "flex";
+
+// get kit name
+const kitName = kit.title || kitKey;
+
+// update success quirky message (edit if you want a single line)
+const msgEl = document.getElementById("successMessageText");
+msgEl.innerText = `Show off your ${kitName} art & inspire others ✨`;
 
 // build WhatsApp Share Link
-const kitName = kit.title || kitKey;
-const msg = `I just finished my ${kitName} from Hoblie – such a fun and relaxing session!`;
-const urlMsg = encodeURIComponent(msg);
+const shareMsg = `I just finished my ${kitName} from Hoblie – such a fun and relaxing session!`;
+const urlMsg = encodeURIComponent(shareMsg);
 document.getElementById("shareBtn").href =
   `https://api.whatsapp.com/send/?text=${urlMsg}&type=custom_url&app_absent=0`;
-
 };
+
 
 /* ======================
    INIT
