@@ -222,6 +222,12 @@ pourmetallic: {
         title: "Dutch Pour Method",
         vimeo: "1146128121"
       },
+ {
+        type: "poll",
+        title: " Pick Your Favorite Method",
+        question: "Tell us which pouring style you enjoyed the most.22",
+        options: ["Dirty Pour", "Dutch Pour", "Puddle Pour", "Swirl Pour", "Swipe Pour", "Flip Pour"]
+      },
 
       {
         type: "video",
@@ -234,6 +240,15 @@ pourmetallic: {
         title: "Swirl Pour",
         vimeo: "1146128166"
       },
+
+       {
+        type: "poll",
+        title: " Pick Your Favorite Method",
+        question: "Tell us which pouring style you enjoyed the most.11",
+        options: ["Dirty Pour", "Dutch Pour", "Puddle Pour", "Swirl Pour", "Swipe Pour", "Flip Pour"]
+      },
+
+
 
       {
         type: "video",
@@ -535,13 +550,14 @@ const kitName = kit.title || kitKey;
 
 // update success quirky message (edit if you want a single line)
 const msgEl = document.getElementById("successMessageText");
-msgEl.innerText = `Show off your ${kitName} art & inspire others ✨`;
+msgEl.innerText = `Show off your ${kitName} & inspire others ✨`;
 
 // build WhatsApp Share Link
 const shareMsg = `I just finished my ${kitName} from Hoblie – such a fun and relaxing session!`;
 const urlMsg = encodeURIComponent(shareMsg);
+const phone = "919016028218"; // ← PUT YOUR NUMBER HERE
 document.getElementById("shareBtn").href =
-  `https://api.whatsapp.com/send/?text=${urlMsg}&type=custom_url&app_absent=0`;
+  `https://api.whatsapp.com/send/?phone=${phone}&text=${urlMsg}&type=custom_url&app_absent=0`;
 };
 
 
