@@ -222,13 +222,6 @@ pourmetallic: {
         title: "Dutch Pour Method",
         vimeo: "1146128121"
       },
- {
-        type: "poll",
-        title: " Pick Your Favorite Method",
-        question: "Tell us which pouring style you enjoyed the most.22",
-        options: ["Dirty Pour", "Dutch Pour", "Puddle Pour", "Swirl Pour", "Swipe Pour", "Flip Pour"]
-      },
-
       {
         type: "video",
         title: "Puddle Pour Method",
@@ -240,15 +233,6 @@ pourmetallic: {
         title: "Swirl Pour",
         vimeo: "1146128166"
       },
-
-       {
-        type: "poll",
-        title: " Pick Your Favorite Method",
-        question: "Tell us which pouring style you enjoyed the most.11",
-        options: ["Dirty Pour", "Dutch Pour", "Puddle Pour", "Swirl Pour", "Swipe Pour", "Flip Pour"]
-      },
-
-
 
       {
         type: "video",
@@ -572,3 +556,4 @@ document.getElementById("shareBtn").href =
 render(
   
 );
+
