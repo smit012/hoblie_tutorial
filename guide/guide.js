@@ -544,6 +544,10 @@ document.getElementById("reviewSubmit").onclick = () => {
 
 // alert("Thank you for your feedback ❤️");
 document.getElementById("successScreen").style.display = "flex";
+// hide nav buttons when success page opens
+document.querySelector(".nav-controls").style.display = "none";
+document.querySelector(".back-btn").style.display = "none";
+
 
 // get kit name
 const kitName = kit.title || kitKey;
