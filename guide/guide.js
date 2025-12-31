@@ -16,10 +16,31 @@ pourseafoam: {
        buttonBorder: "#ffffffff",
     },
     slides: [
+
+        {
+      type: "image",
+      title: "",
+      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/blue.png?v=1767175324"
+     },
+
       {
         type: "video",
-        title: "What’s in the kit?",
-        vimeo: "1149432392"
+        title: "What’s inside the kit?",
+        vimeo: "1150611082"
+      },
+
+
+      {
+        type: "poll",
+         title: " Quick Question",
+        question: "How are you feeling right now?",
+        options: ["😬 A little nervous", "👀 Very curious"]
+      },
+
+       {
+      type: "image",
+      title: "",
+      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/2_101bf155-fb01-44dd-948c-9f5f933fd45a.png?v=1767175324"
       },
 
        {
@@ -27,11 +48,10 @@ pourseafoam: {
         title: "Do’s and Don’ts",
         vimeo: "1146128246"
       },
-
-        {
+              {
       type: "image",
-      title: "Pour Painting Methods Preview",
-      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/Make_Art_that_feels_like_Therapy.png?v=1766575861"
+      title: "",
+      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/3_08b0f067-6d8e-4b0a-80d3-caa4f77070ec.png?v=1767175324"
      },
 
 
@@ -39,18 +59,6 @@ pourseafoam: {
         type: "video",
         title: " Dirty Pour Method",
         vimeo: "1146128092"
-      },
-
-       {
-        type: "video",
-        title: "Dutch Pour Method",
-        vimeo: "1146128121"
-      },
-
-      {
-        type: "video",
-        title: "Puddle Pour Method",
-        vimeo: "1146128145"
       },
 
       {
@@ -65,6 +73,26 @@ pourseafoam: {
         vimeo: "1146128197"
       },
 
+      {
+      type: "image",
+      title: "",
+      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/4_996aa580-b8be-4115-97ac-dd0a03b54d10.png?v=1767175324"
+     },
+
+
+       {
+        type: "video",
+        title: "Dutch Pour Method",
+        vimeo: "1146128121"
+      },
+
+      {
+        type: "video",
+        title: "Puddle Pour Method",
+        vimeo: "1146128145"
+      },
+
+      
         {
         type: "video",
         title: "Flip Pour Method",
@@ -75,15 +103,34 @@ pourseafoam: {
       {
         type: "poll",
         title: " Pick Your Favorite Method",
-        question: "Tell us which pouring style you enjoyed the most.",
+        question: "Which method will you try first?",
         options: ["Dirty Pour", "Dutch Pour", "Puddle Pour", "Swirl Pour", "Swipe Pour", "Flip Pour"]
       },
 
+      {
+      type: "image",
+      title: "",
+      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/5_c613a68f-96a3-4d80-aec5-87f6939b8e90.png?v=1767175324"
+     },
+
+      {
+      type: "image",
+      title: "",
+      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/6_b21ea80b-21d5-469d-a438-46536feae5b8.png?v=1767175324"
+     },
+     
        {
         type: "video",
         title: "Seal Your Coasters",
         vimeo: "1146125857"
       },
+
+      
+      {
+      type: "image",
+      title: "",
+      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/7_533de713-c502-4709-bb83-321764aba6c5.png?v=1767175324"
+     },
 
       {
         type: "review",
@@ -195,7 +242,7 @@ pourmetallic: {
       {
         type: "video",
         title: "What’s in the kit?",
-        vimeo: "1149432392"
+        vimeo: "1150611082"
       },
 
        {
@@ -222,6 +269,13 @@ pourmetallic: {
         title: "Dutch Pour Method",
         vimeo: "1146128121"
       },
+ {
+        type: "poll",
+        title: " Pick Your Favorite Method",
+        question: "Tell us which pouring style you enjoyed the most.22",
+        options: ["Dirty Pour", "Dutch Pour", "Puddle Pour", "Swirl Pour", "Swipe Pour", "Flip Pour"]
+      },
+
       {
         type: "video",
         title: "Puddle Pour Method",
@@ -233,6 +287,15 @@ pourmetallic: {
         title: "Swirl Pour",
         vimeo: "1146128166"
       },
+
+       {
+        type: "poll",
+        title: " Pick Your Favorite Method",
+        question: "Tell us which pouring style you enjoyed the most.11",
+        options: ["Dirty Pour", "Dutch Pour", "Puddle Pour", "Swirl Pour", "Swipe Pour", "Flip Pour"]
+      },
+
+
 
       {
         type: "video",
@@ -556,4 +619,3 @@ document.getElementById("shareBtn").href =
 render(
   
 );
-
