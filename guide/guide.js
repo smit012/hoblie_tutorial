@@ -142,7 +142,7 @@ pourseafoam: {
 
   
 poursunset: {
-    title: "Seafoam Swirls",
+    title: "Sunset Swirls",
     theme: {
       cardBg: "#8ac86a",
       buttonBg: "#ffffffff",
@@ -211,7 +211,7 @@ poursunset: {
       {
       type: "image",
       title: "",
-      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/11.png?v=1767179531"
+      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/11_eb74c314-574a-4748-b71d-aacd983024fe.png?v=1767183249"
      },
 
 
@@ -251,7 +251,7 @@ poursunset: {
       {
       type: "image",
       title: "",
-      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/13.png?v=1767179531"
+      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/13_e7a38498-fda6-4ede-a572-cc87632b219a.png?v=1767183249"
      },
      
        {
@@ -276,20 +276,42 @@ poursunset: {
   },
 
 pourmetallic: {
-   title: "Sunset Swirls",
+
+    title: "Metallic Swirls",
     theme: {
-      cardBg: "#ffffffff",
-      buttonBg: "#f8df61",
+      cardBg: "#f8df61",
+      buttonBg: "#ffffffff",
       buttonText: "#000000ff",
-      buttonBorder: "#ffffffff",
-      // accent: "#ccf123ff"
-      
+      // accent: "#86d1d4",
+       buttonBorder: "#ffffffff",
     },
+
     slides: [
+
+        {
+      type: "image",
+      title: "",
+      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/blue_5aeb7e4e-3620-4434-84fe-b51e48769e90.png?v=1767183249"
+     },
+
       {
         type: "video",
-        title: "What’s in the kit?",
+        title: "What’s inside the kit?",
         vimeo: "1150611082"
+      },
+
+
+      {
+        type: "poll",
+         title: " Quick Question",
+        question: "How are you feeling right now?",
+        options: ["😬 A little nervous", "👀 Very curious"]
+      },
+
+       {
+      type: "image",
+      title: "",
+      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/16.png?v=1767183249"
       },
 
        {
@@ -297,11 +319,10 @@ pourmetallic: {
         title: "Do’s and Don’ts",
         vimeo: "1146128246"
       },
-
-        {
+              {
       type: "image",
-      title: "Pour Painting Methods Preview",
-      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/pour_painting_set.png?v=1759386296"
+      title: "",
+      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/17.png?v=1767183250"
      },
 
 
@@ -311,16 +332,29 @@ pourmetallic: {
         vimeo: "1146128092"
       },
 
+      {
+        type: "video",
+        title: "Swirl Pour",
+        vimeo: "1146128166"
+      },
+
+      {
+        type: "video",
+        title: "Swipe Pour Method",
+        vimeo: "1146128197"
+      },
+
+      {
+      type: "image",
+      title: "",
+      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/18.png?v=1767183249"
+     },
+
+
        {
         type: "video",
         title: "Dutch Pour Method",
         vimeo: "1146128121"
-      },
- {
-        type: "poll",
-        title: " Pick Your Favorite Method",
-        question: "Tell us which pouring style you enjoyed the most.22",
-        options: ["Dirty Pour", "Dutch Pour", "Puddle Pour", "Swirl Pour", "Swipe Pour", "Flip Pour"]
       },
 
       {
@@ -329,27 +363,7 @@ pourmetallic: {
         vimeo: "1146128145"
       },
 
-      {
-        type: "video",
-        title: "Swirl Pour",
-        vimeo: "1146128166"
-      },
-
-       {
-        type: "poll",
-        title: " Pick Your Favorite Method",
-        question: "Tell us which pouring style you enjoyed the most.11",
-        options: ["Dirty Pour", "Dutch Pour", "Puddle Pour", "Swirl Pour", "Swipe Pour", "Flip Pour"]
-      },
-
-
-
-      {
-        type: "video",
-        title: "Swipe Pour Method",
-        vimeo: "1146128197"
-      },
-
+      
         {
         type: "video",
         title: "Flip Pour Method",
@@ -360,15 +374,34 @@ pourmetallic: {
       {
         type: "poll",
         title: " Pick Your Favorite Method",
-        question: "Tell us which pouring style you enjoyed the most.",
+        question: "Which method will you try first?",
         options: ["Dirty Pour", "Dutch Pour", "Puddle Pour", "Swirl Pour", "Swipe Pour", "Flip Pour"]
       },
 
+      {
+      type: "image",
+      title: "",
+      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/19.png?v=1767183249"
+     },
+
+      {
+      type: "image",
+      title: "",
+      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/20.png?v=1767183249"
+     },
+     
        {
         type: "video",
         title: "Seal Your Coasters",
         vimeo: "1146125857"
       },
+
+      
+      {
+      type: "image",
+      title: "",
+      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/21.png?v=1767183249"
+     },
 
       {
         type: "review",
@@ -377,8 +410,6 @@ pourmetallic: {
       }
     ]
   },
-
-
 
   // slug: {
   //   theme: {
