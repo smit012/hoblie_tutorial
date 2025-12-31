@@ -142,19 +142,40 @@ pourseafoam: {
 
   
 poursunset: {
-   title: "Sunset Swirls",
+    title: "Seafoam Swirls",
     theme: {
       cardBg: "#8ac86a",
       buttonBg: "#ffffffff",
       buttonText: "#000000ff",
-      buttonBorder: "#ffffffff",
-      // accent: "#f5c55eff"
+      // accent: "#86d1d4",
+       buttonBorder: "#ffffffff",
     },
     slides: [
+
+        {
+      type: "image",
+      title: "",
+      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/green.png?v=1767179531"
+     },
+
       {
         type: "video",
-        title: "What’s in the kit?",
-        vimeo: "1149432392"
+        title: "What’s inside the kit?",
+        vimeo: "1150611082"
+      },
+
+
+      {
+        type: "poll",
+         title: " Quick Question",
+        question: "How are you feeling right now?",
+        options: ["😬 A little nervous", "👀 Very curious"]
+      },
+
+       {
+      type: "image",
+      title: "",
+      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/9.png?v=1767179531"
       },
 
        {
@@ -162,11 +183,10 @@ poursunset: {
         title: "Do’s and Don’ts",
         vimeo: "1146128246"
       },
-
-        {
+              {
       type: "image",
-      title: "Pour Painting Methods Preview",
-      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/pour_painting_set.png?v=1759386296"
+      title: "",
+      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/10.png?v=1767179532"
      },
 
 
@@ -174,18 +194,6 @@ poursunset: {
         type: "video",
         title: " Dirty Pour Method",
         vimeo: "1146128092"
-      },
-
-       {
-        type: "video",
-        title: "Dutch Pour Method",
-        vimeo: "1146128121"
-      },
-
-      {
-        type: "video",
-        title: "Puddle Pour Method",
-        vimeo: "1146128145"
       },
 
       {
@@ -200,6 +208,26 @@ poursunset: {
         vimeo: "1146128197"
       },
 
+      {
+      type: "image",
+      title: "",
+      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/11.png?v=1767179531"
+     },
+
+
+       {
+        type: "video",
+        title: "Dutch Pour Method",
+        vimeo: "1146128121"
+      },
+
+      {
+        type: "video",
+        title: "Puddle Pour Method",
+        vimeo: "1146128145"
+      },
+
+      
         {
         type: "video",
         title: "Flip Pour Method",
@@ -210,15 +238,34 @@ poursunset: {
       {
         type: "poll",
         title: " Pick Your Favorite Method",
-        question: "Tell us which pouring style you enjoyed the most.",
+        question: "Which method will you try first?",
         options: ["Dirty Pour", "Dutch Pour", "Puddle Pour", "Swirl Pour", "Swipe Pour", "Flip Pour"]
       },
 
+      {
+      type: "image",
+      title: "",
+      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/12.png?v=1767179531"
+     },
+
+      {
+      type: "image",
+      title: "",
+      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/13.png?v=1767179531"
+     },
+     
        {
         type: "video",
         title: "Seal Your Coasters",
         vimeo: "1146125857"
       },
+
+      
+      {
+      type: "image",
+      title: "",
+      src: "https://cdn.shopify.com/s/files/1/0739/8781/7689/files/14.png?v=1767179532"
+     },
 
       {
         type: "review",
