@@ -12,32 +12,34 @@ YOu want to see my full webiste then go on this site ( https://hobliekits.com/ )
 ## 1) Home_page :
 
 
-![Demo Image](https://github.com/smit012/Blinkit-Dashboard/blob/main/Dashboard_Image/Home.png)
+![Demo Image](http://github.com/smit012/hoblie_tutorial/blob/main/Tutorial%20Page/Home.png)
 
 ## 2) Login_page :
 
 
-![Demo Image](https://github.com/smit012/Blinkit-Dashboard/blob/main/Dashboard_Image/Overview.png)
+![Demo Image](https://github.com/smit012/hoblie_tutorial/blob/main/Tutorial%20Page/Login.png)
 
 ## 3) Email_PopUp_page :
 
 
-![Demo Image](https://github.com/smit012/Blinkit-Dashboard/blob/main/Dashboard_Image/Sales.png)
+![Demo Image](https://github.com/smit012/hoblie_tutorial/blob/main/Tutorial%20Page/Email.png)
 
 ## 4) Tutorial_page :
 
 
-![Demo Image](https://github.com/smit012/Blinkit-Dashboard/blob/main/Dashboard_Image/Cutomer.png)
+![Demo Image](http://github.com/smit012/hoblie_tutorial/blob/main/Tutorial%20Page/Tutorial1.png)
+![Demo Image](https://github.com/smit012/hoblie_tutorial/blob/main/Tutorial%20Page/Tutorial2.png)
+![Demo Image](https://github.com/smit012/hoblie_tutorial/blob/main/Tutorial%20Page/Tutorial3.png)
 
 ## 5) Q & A_page :
 
 
-![Demo Image](https://github.com/smit012/Blinkit-Dashboard/blob/main/Dashboard_Image/Feedback.png)
+![Demo Image](https://github.com/smit012/hoblie_tutorial/blob/main/Tutorial%20Page/Q%20%26%20A.png)
 
 ## 6) Help(?)_page :
 
 
-![Demo Image](https://github.com/smit012/Blinkit-Dashboard/blob/main/Dashboard_Image/Inventory.png)
+![Demo Image](https://github.com/smit012/hoblie_tutorial/blob/main/Tutorial%20Page/Help.png)
 
 
 
