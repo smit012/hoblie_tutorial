@@ -12,7 +12,7 @@ YOu want to see my full webiste then go on this site ( https://hobliekits.com/ )
 ## 1) Home_page :
 
 
-![Demo Image](http://github.com/smit012/hoblie_tutorial/blob/main/Tutorial%20Page/Home.png)
+![Demo Image](https://github.com/smit012/hoblie_tutorial/blob/main/Tutorial%20Page/Home.png)
 
 ## 2) Login_page :
 
@@ -27,7 +27,7 @@ YOu want to see my full webiste then go on this site ( https://hobliekits.com/ )
 ## 4) Tutorial_page :
 
 
-![Demo Image](http://github.com/smit012/hoblie_tutorial/blob/main/Tutorial%20Page/Tutorial1.png)
+![Demo Image](https://github.com/smit012/hoblie_tutorial/blob/main/Tutorial%20Page/Tutorial1.png)
 ![Demo Image](https://github.com/smit012/hoblie_tutorial/blob/main/Tutorial%20Page/Tutorial2.png)
 ![Demo Image](https://github.com/smit012/hoblie_tutorial/blob/main/Tutorial%20Page/Tutorial3.png)
 
